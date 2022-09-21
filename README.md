@@ -3,7 +3,6 @@
 Green pill is a low-cost development kit for nrf52840. The board supports programming via SWDIO and SWCLK pins using for example ST-LINK programmer.
 
 ## Features:
-![pinout](pictures/pinoutV1.png)
 
 - NRF52840 chip
   - 64 MHz Cortex-M4 with FPU
@@ -14,12 +13,14 @@ Green pill is a low-cost development kit for nrf52840. The board supports progra
   - ANT, 802.15.4, Thread, Zigbee
 - USB-C connector.
 - Bluetooth SMD antenna.
-- 6 Analog Inputs(12 Bit), 4xPWM, Full-speed 12 Mbps USB,2xUART, 3xSPI(low speed), 1xSPI(high speed), 2xTWI, 1xPDM, 1xI2S, 1xQSPI
+- 33 GPIOs, 6 Analog Inputs(12 Bit), 4xPWM, Full-speed 12 Mbps USB,2xUART, 3xSPI(low speed), 1xSPI(high speed), 2xTWI, 1xPDM, 1xI2S, 1xQSPI. Most peripherals(like UART, TWI, SPI ...) can be mapped to any pin.
 - External 32 Mhz and 32.768 kHz crystals.
 - Accepts power through:
   - USB
   - External source (1.8V-5V)
 
+## Pinout and dimensions
+![pinout](pictures/pinoutV1.png)
 ![dimensions](pictures/dimensions.png)
 
 ## Programming options:
