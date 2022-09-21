@@ -21,6 +21,7 @@ Green pill is a low-cost development kit for nrf52840. The board supports progra
 
 ## Pinout and dimensions
 ![pinout](pictures/pinoutV1.png)
+
 ![dimensions](pictures/dimensions.png)
 
 ## Programming options:
