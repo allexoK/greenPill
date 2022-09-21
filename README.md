@@ -2,7 +2,9 @@
 ## Introduction:
 Green pill is a low-cost development kit for nrf52840. The board supports programming via SWDIO and SWCLK pins using for example ST-LINK programmer.
 
-##Features:
+## Features:
+![platformio](pictures/pinoutV1.png)
+
 - NRF52840 chip
   - 64 MHz Cortex-M4 with FPU
   - 1 MB Flash, 256 KB RAM
@@ -18,6 +20,8 @@ Green pill is a low-cost development kit for nrf52840. The board supports progra
   - USB
   - External source (1.8V-5V)
 
+![platformio](dimensions.pdf)
+
 ## Programming options:
 Using vscode Platformio and mbed/Arduino/Zephyr OS
 1. Open vscode and Platformio extension. Create new project.
@@ -30,3 +34,6 @@ Using vscode Platformio and mbed/Arduino/Zephyr OS
 
 ## Uploading example project:
 For example projects go to https://github.com/allexoK/greenPillExamples
+
+## Schematics
+Schematics can be found in HW/schematics
